@@ -125,18 +125,30 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>90</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1133</x>
                         <y>244</y>
                         <z>0</z>
-                        <width>99</width>
-                        <height>86</height>
+                        <width>95.963188171</width>
+                        <height>88.72151947</height>
                         <depth>0</depth>
-                        <hotspotX>0.546012282</hotspotX>
-                        <hotspotY>0.594936728</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.405063301</hotspotX>
+                        <hotspotY>0.546012282</hotspotY>
+                        <angle>-1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

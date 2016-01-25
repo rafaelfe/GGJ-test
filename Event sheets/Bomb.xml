@@ -18,6 +18,21 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="3573397377503884">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6224711523609467" type="System">
+                    <param id="0" name="Interval (seconds)">random(2,3)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="5476412365866001" type="System">
+                    <param id="0" name="Object to create">Crystal</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">random(80, 950)</param>
+                    <param id="3" name="Y">800</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="2695493545993676">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="9880397640090442" type="Bomb">
