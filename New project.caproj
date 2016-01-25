@@ -10,6 +10,7 @@
     <unique-id>g2w53r9iaycl</unique-id>
     <saved-with-version>22100</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors />
@@ -63,6 +64,10 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="HairParticles" sid="4824777637361077">
+            <plugin id="Particles" />
+            <texture />
         </object-type>
     </object-folder>
     <families />
