@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Bomb</name>
+    <events>
+        <event-block sid="2230793899881368">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6272067849863151" type="System">
+                    <param id="0" name="Interval (seconds)">random(2,3)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="74469635246277" type="System">
+                    <param id="0" name="Object to create">Bomb</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">random(80, 950)</param>
+                    <param id="3" name="Y">800</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2695493545993676">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9880397640090442" type="Bomb">
+                    <param id="0" name="Object">Digger</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="8534223547004874" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

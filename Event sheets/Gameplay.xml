@@ -44,5 +44,6 @@
                 </action>
             </actions>
         </event-block>
+        <include>Bomb</include>
     </events>
 </c2eventsheet>
