@@ -45,5 +45,25 @@
             </actions>
         </event-block>
         <include>Bomb</include>
+        <event-block sid="4869037762571251">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7779288920374638" type="DestroyObjects">
+                    <param id="0" name="Object">Bomb</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4799244113319194" type="Bomb" />
+            </actions>
+        </event-block>
+        <event-block sid="7160568966329554">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5428220874371005" type="DestroyObjects">
+                    <param id="0" name="Object">Crystal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7065271410968117" type="Crystal" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
