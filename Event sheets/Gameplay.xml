@@ -2,5 +2,29 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Gameplay</name>
-    <events />
+    <events>
+        <event-block sid="29400097526678">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="9663744810915044" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="9176347611966747" type="TiledBG">
+                    <param id="0" name="Y">Self.Y-3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="313890194049445">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="6021948059091827" type="TiledBG">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">-768</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="9901987192673511" type="TiledBG">
+                    <param id="0" name="Y">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
