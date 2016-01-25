@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Gameplay</name>
     <events>
+        <variable constant="0" name="score" sid="6343125776741196" static="0" type="number">0</variable>
         <event-block sid="29400097526678">
             <conditions>
                 <condition id="-1" name="Every tick" sid="9663744810915044" type="System" />
@@ -23,6 +24,23 @@
             <actions>
                 <action id="-2" name="Set Y" sid="9901987192673511" type="TiledBG">
                     <param id="0" name="Y">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1722250593376908">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="9006707160825513" type="Digger">
+                    <param id="0" name="Object">Crystal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8200061507087075" type="Crystal" />
+                <action id="-10" name="Add to" sid="1504105081655934" type="System">
+                    <param id="0" name="Variable">score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="1" name="Append text" sid="6191932344833138" type="SpriteFont">
+                    <param id="0" name="Text">score</param>
                 </action>
             </actions>
         </event-block>
