@@ -39,8 +39,8 @@
                     <param id="0" name="Variable">score</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="1" name="Append text" sid="6191932344833138" type="SpriteFont">
-                    <param id="0" name="Text">score</param>
+                <action id="0" name="Set text" sid="6191932344833138" type="SpriteFont">
+                    <param id="0" name="Text">&quot;CRYSTALS:&quot;&amp;score</param>
                 </action>
             </actions>
         </event-block>
