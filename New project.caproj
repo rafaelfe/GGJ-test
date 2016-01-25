@@ -10,8 +10,8 @@
     <unique-id>g2w53r9iaycl</unique-id>
     <saved-with-version>22100</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -41,57 +41,41 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Sprite" sid="2443722722521777">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5987239855511661" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite2" sid="8439554029659162">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6427586589538272" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite3" sid="6755344096382349">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2967156215599741" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="grass" sid="6221833053522171">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1413942275387444" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="HairParticles" sid="4824777637361077">
-            <plugin id="Particles" />
+        <object-type name="TiledBG" sid="6195915219650307">
+            <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="Sprite4" sid="6918847702040635">
+        <object-type name="Digger" sid="2131497067143752">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9533294282459011" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8499213196824974" speed="5">
+                    <frame duration="1" hotspotX="0.523256" hotspotY="0.493333" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bomb" sid="7924506202429648">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4733497950126073" speed="5">
+                    <frame duration="1" hotspotX="0.433566" hotspotY="0.574627" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Crystal" sid="5478672379960677">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2938678904281312" speed="5">
+                    <frame duration="1" hotspotX="0.546012" hotspotY="0.594937" />
                 </animation>
             </animation-folder>
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>Gameplay.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Gameplay.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
